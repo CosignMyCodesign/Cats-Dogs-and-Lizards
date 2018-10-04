@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box; /* Border wont count as part of box, wont throw off percentages*/
+}
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.nav li {
+  /* margin-right: 10px; */
+  border: 2px solid black;  /*Make a border to identify what the box looks like*/
+}
+
+section {
+  border: 1px solid green; /*Identify box with a border*/
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.animal {
+  flex-basis: 20%;
+}
+
+img {
+  width: 200px;
+}
